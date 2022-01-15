@@ -78,7 +78,7 @@ class ShipForMeController extends Controller
         $shipformes->save();
 
        //notify()->success('ShipForMe Order Created Successfully','Success');
-        session()->flash('success','ShipForME Order Created Successfully!');
+        session()->flash('success','Your Order Created Successfully!');
 
         return redirect()->route('user.dashboard.index')->with('');
     }
