@@ -44,7 +44,7 @@
                             </div>
                         </div>
                         <div class="col-lg-3">
-                            <label for="couriertype_id">Select Courier Type<span>*</span></label>
+                            <label for="couriertype_id">Select Servicing Type<span>*</span></label>
                             <select class="form-control" name="couriertype_id" id="couriertype_id">
                                 @php($couriertypes = \App\Models\CourierType::all())
                                 @foreach ($couriertypes as $item)
@@ -83,7 +83,7 @@
                     <div class="download-icon">
                         <img src="{{ asset('/') }}frontend/images/icons/service-1.png" class="img-fluid" alt="about-img">
                     </div>
-                    <h4>Ship For Me</h4>
+                    <h4>Ship PHN Service</h4>
                     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
                 </div>
             </div>
@@ -92,7 +92,7 @@
                     <div class="download-icon">
                         <img src="{{ asset('/') }}frontend/images/icons/service-2.png" class="img-fluid" alt="about-img">
                     </div>
-                    <h4>Packaging Goods</h4>
+                    <h4>Phone / Laptop Servicing </h4>
                     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
                 </div>
             </div>
@@ -101,7 +101,7 @@
                     <div class="download-icon">
                         <img src="{{ asset('/') }}frontend/images/icons/service-3.png" class="img-fluid" alt="about-img">
                     </div>
-                    <h4>Buy For Me</h4>
+                    <h4>Fix PHN Service</h4>
                     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
                 </div>
             </div>
