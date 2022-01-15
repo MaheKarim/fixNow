@@ -164,7 +164,7 @@
                         </div>
                         <div class="widget-chart-content">
                             <div class="widget-subheading"> Pending Orders</div>
-                            <div class="widget-numbers text-warning">{{ \App\Models\BuyForMe::where('status_id','=','1')->count() }} Order</div>
+                            <div class="widget-numbers text-warning">{{ \App\Models\ShipForMe::where('status_id','=','1')->count() }} Order</div>
 
                         </div>
                     </div>
@@ -178,7 +178,7 @@
                         </div>
                         <div class="widget-chart-content">
                             <div class="widget-subheading">Rejected Order</div>
-                            <div class="widget-numbers text-danger"><span>{{ \App\Models\BuyForMe::where('status_id', '=', '2')->count() }} Order</span></div>
+                            <div class="widget-numbers text-danger"><span>{{ \App\Models\ShipForMe::where('status_id', '=', '2')->count() }} Order</span></div>
 
                         </div>
                     </div>
@@ -192,14 +192,14 @@
                         </div>
                         <div class="widget-chart-content">
                             <div class="widget-subheading">Accepted Order</div>
-                            <div class="widget-numbers text-success"><span>{{ \App\Models\BuyForMe::where('status_id', '=', '3')->count() }} Order</span></div>
+                            <div class="widget-numbers text-success"><span>{{ \App\Models\ShipForMe::where('status_id', '=', '3')->count() }} Order</span></div>
 
                         </div>
                     </div>
                 </div>
             </div>
             <div class="text-center d-block p-3 card-footer">
-                <a href="{{ url('app/buyforme-orders') }}" class="btn-pill btn-shadow btn-wide fsize-1 btn btn-info btn-lg">
+                <a href="{{ url('app/shipforme-orders') }}" class="btn-pill btn-shadow btn-wide fsize-1 btn btn-info btn-lg">
                                     <span class="mr-2 opacity-7">
                                         <i class="icon icon-anim-pulse ion-ios-analytics-outline"></i>
                                     </span>
