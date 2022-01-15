@@ -29,7 +29,7 @@
                     <i class="pe-7s-graph icon-gradient bg-mean-fruit">
                     </i>
                 </div>
-                <div>{{ __('Ship Details') }}</div>
+                <div>{{ __('Gadgets Details') }}</div>
             </div>
             <div class="page-title-actions">
                 <div class="d-inline-block dropdown">
@@ -49,7 +49,7 @@
         <div class="col-md-3">
             <div class="main-card mb-3 card">
                 <div class="card-border card card-body border-primary">
-                    <h5 class="card-title">Our US Address</h5>
+                    <h5 class="card-title">Our Store Address</h5>
                     {{ $usaddresses->house_number }} <br>
                     {{ $usaddresses->street_number }} <br>
                     {{ $usaddresses->state_name }} <br>
@@ -62,7 +62,7 @@
             <div class="container">
              <div class="card">
                  <div class="card-header text-white bg-info">
-                     <h4>Ship For Me</h4>
+                     <h4>Fix PHN For Me</h4>
                  </div>
                  <div class="card-body">
                      <form class="contact-form" method="POST" action="{{ route('user.ShipForMe.store') }}">
@@ -79,23 +79,23 @@
                                  </div>
                          @endif
                          <!-- error message end -->
-                             <label for="product_name">Product Name</label>
+                             <label for="product_name">Gadgets Name</label>
                              <input type="text" name="product_name" class="form-control @error('product_name') is-invalid @enderror" value="{{ old('product_name') }}" required>
 
                              @error('product_name')
                              <div class="alert alert-danger">{{ $message }}</div>
                              @enderror
 
-                             <label for="product_link">Product Link</label>
-                             <input type="text" name="product_link" class="form-control" value="{{ old('') }}">
+                             <label for="product_link">Phone Model</label>
+                             <input type="text" name="product_link" id="product_link" class="form-control" value="{{ old('product_link') }}">
 
-                             <label for="product_weight">Product Weight</label>
+                             <label for="product_weight">Phone Color</label>
                              <input type="text" name="product_weight" class="form-control @error('product_weight') is-invalid @enderror" value="{{ old('product_weight') }}" required>
 
                              @error('product_weight')
                              <div class="alert alert-danger">{{ $message }}</div>
                              @enderror
-                             <label for="product_quantity">Product Quantity</label>
+                             <label for="product_quantity">Phone Quantity</label>
                              <input type="text" name="product_quantity" class="form-control @error('product_quantity') is-invalid @enderror" value="{{ old('product_quantity') }}" required>
 
                              @error('product_quantity')
