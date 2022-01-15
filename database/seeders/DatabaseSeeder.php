@@ -20,6 +20,6 @@ class DatabaseSeeder extends Seeder
          $this->call(USAddressSeeder::class);
          $this->call(StatusSeeder::class);
          $this->call(FAQSeeder::class);
-         $this->call(CourierType::class);
+         $this->call(CourierTypeSeeder::class);
     }
 }

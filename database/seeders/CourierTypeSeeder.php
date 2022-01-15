@@ -15,10 +15,10 @@ class CourierTypeSeeder extends Seeder
     public function run()
     {
         CourierType::updateOrCreate([
-            'courier_type_name' => 'Fix For Me',
+            'courier_type_name' => 'Fix PHN Service',
         ]);
         CourierType::updateOrCreate([
-            'courier_type_name' => 'Check For Me',
+            'courier_type_name' => 'Ship PHN Service',
         ]);
     }
 }
