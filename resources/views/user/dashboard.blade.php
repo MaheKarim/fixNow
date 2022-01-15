@@ -1,6 +1,5 @@
 @extends('layouts.user.app')
 
-
 @section('content')
 
     <div class="app-page-title">
@@ -52,7 +51,7 @@
                             <div class="main-card  card">
                                 <div class="card-header">
                                     <i class="header-icon lnr-gift icon-gradient bg-mixed-hopes"> </i>
-                                    Our US Store Address
+                                    Our Store Address
                                 </div>
                                 <div class="card-body">
                                     <div class="tab-content">
