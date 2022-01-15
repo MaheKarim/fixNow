@@ -80,7 +80,9 @@ class ShipForMeController extends Controller
        //notify()->success('ShipForMe Order Created Successfully','Success');
         session()->flash('success','Your Order Created Successfully!');
 
-        return redirect()->route('user.dashboard.index')->with('');
+        return redirect()->route('user.dashboard.index');
+
+        // WITH() OFF
     }
 
     /**
