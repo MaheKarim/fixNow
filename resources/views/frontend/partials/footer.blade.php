@@ -18,7 +18,7 @@
                             </div>
                         </div>
                         <div class="col-lg-10">
-                            <div class="footer-address">USA Office</div>
+                            <div class="footer-address">Our Office</div>
                             <div class="footer-address-dtl">3029A, Melbourne, Australia</div>
                         </div>
                     </div>
@@ -98,7 +98,7 @@
                             <li><a href="#" title="Terms &amp; Conditions"> Terms &amp; Conditions </a></li>
 
                             <li >
-                                <a href="#"  title="Developer"> <i class="las la-globe"></i>   Developed by  <a href="https://mahekarim.me" target="_blank">❤️ InnoX</a></a>
+                                <a href="#"  title="Developer"> <i class="las la-globe"></i>   Developed by  <a href="https://mahekarim.me" target="_blank">❤️ FixNow</a></a>
                             </li>
                         </ul>
                     </div>
