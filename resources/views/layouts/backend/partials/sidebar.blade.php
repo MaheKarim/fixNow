@@ -51,15 +51,15 @@
                 <li>
                     <a href="{{ url('app/shipforme-orders') }}" class="{{ Request::is('app/shipforme-orders*') ? 'mm-active' : '' }}">
                         <i class="metismenu-icon pe-7s-plugin"></i>
-                        Ship PHN Service
-                    </a>
-                </li>
-                <li>
-                    <a href="{{ url('app/buyforme-orders') }}" class="{{ Request::is('app/buyforme-orders*') ? 'mm-active' : '' }}">
-                        <i class="metismenu-icon pe-7s-plane"></i>
                         Fix PHN Service
                     </a>
                 </li>
+{{--                <li>--}}
+{{--                    <a href="{{ url('app/buyforme-orders') }}" class="{{ Request::is('app/buyforme-orders*') ? 'mm-active' : '' }}">--}}
+{{--                        <i class="metismenu-icon pe-7s-plane"></i>--}}
+{{--                        Ship PHN Service--}}
+{{--                    </a>--}}
+{{--                </li>--}}
                 <li>
                     <a href="{{ url('app/payment-receive') }}" class="{{ Request::is('app/payment-receive*') ? 'mm-active' : '' }}">
                         <i class="metismenu-icon pe-7s-diamond"></i>
