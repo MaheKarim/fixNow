@@ -15,7 +15,7 @@ class FAQSeeder extends Seeder
     public function run()
     {
         FAQ::updateOrCreate([
-           'faq_ques' => 'Do you ship London to Sylhet ?',
+           'faq_ques' => 'Do you ship Dhaka to Sylhet ?',
            'faq_ans'  => ' Yes!, We Do. ',
         ]);
     }

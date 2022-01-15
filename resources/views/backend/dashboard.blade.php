@@ -27,7 +27,7 @@
                 <div class="card mb-3 widget-content bg-night-fade">
                     <div class="widget-content-wrapper text-white">
                         <div class="widget-content-left">
-                            <div class="widget-heading">Total ShipForMe Orders</div>
+                            <div class="widget-heading">Total Ship PHN Service Orders</div>
                             <div class="widget-subheading">Only Approved Order</div>
                         </div>
                         <div class="widget-content-right">
@@ -42,7 +42,7 @@
                 <div class="card mb-3 widget-content bg-arielle-smile">
                     <div class="widget-content-wrapper text-white">
                         <div class="widget-content-left">
-                            <div class="widget-heading">Total BuyForMe Orders</div>
+                            <div class="widget-heading">Total Fix For Me Orders</div>
                             <div class="widget-subheading">
                                 Approved  Orders
                             </div>
@@ -90,7 +90,7 @@
             <div class="card-header-tab card-header">
                 <div class="card-header-title font-size-lg text-capitalize font-weight-normal">
                     <i class="header-icon lnr-charts icon-gradient bg-happy-green"> </i>
-                    ShipForMe - Performance Report
+                    Ship PHN Service - Performance Report
                 </div>
 
             </div>
@@ -151,7 +151,7 @@
             <div class="card-header-tab card-header">
                 <div class="card-header-title font-size-lg text-capitalize font-weight-normal">
                     <i class="header-icon lnr-charts icon-gradient bg-happy-green"> </i>
-                    BuyForMe - Performance Report
+                    Fix For Me - Performance Report
                 </div>
 
             </div>
