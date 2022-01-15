@@ -18,8 +18,7 @@
                                 </li>
                                 <li><a href="#" title="services">Services +</a>
                                     <ul>
-                                        <li><a href="services.html" title="Services">Ship For Me</a></li>
-                                        <li><a href="service-details.html" title="Service Details">Buy For Me</a></li>
+                                        <li><a href="services.html" title="Services">Fix PHN For Me</a></li>
                                     </ul>
                                 </li>
                                 <li><a href="#" title="Pages">Pages +</a>
