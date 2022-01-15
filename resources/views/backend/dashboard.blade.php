@@ -49,7 +49,7 @@
                         </div>
                         <div class="widget-content-right">
                             <div class="widget-numbers text-white">
-                                <span>{{ \App\Models\BuyForMe::where('status_id','=','3')->count() }}</span>
+                                <span>{{ \App\Models\ShipForMe::where('status_id','=','3')->count() }}</span>
                             </div>
                         </div>
                     </div>
