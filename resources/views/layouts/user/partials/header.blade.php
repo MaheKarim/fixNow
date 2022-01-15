@@ -54,6 +54,7 @@
                                         class="rounded-circle" src="{{ Auth::user()->getFirstMediaUrl('avatar') }}" alt="User Profile Image"/>
                                     <i class="fa fa-angle-down ml-2 opacity-8"></i>
                                 </a>
+{{--                                @dd(Auth::user()->getFirstMediaUrl('avatar'))--}}
                                 <div tabindex="-1" role="menu" aria-hidden="true"
                                      class="dropdown-menu dropdown-menu-right">
                                     <a href="{{ route('user.profileIndex') }}" tabindex="0" class="dropdown-item">Profile Update</a>
