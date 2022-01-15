@@ -80,7 +80,7 @@
                         <li>
                             <a href="{{ route('user.ShipForMe.create') }}"
                                class="{{ Request::is('user/ShipForMe/create') ? 'mm-active' : '' }}">
-                                <i class="metismenu-icon"></i>Send ShipForMe Request
+                                <i class="metismenu-icon"></i>Send Order Request
                             </a>
                         </li>
                     </ul>
