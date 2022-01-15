@@ -15,9 +15,9 @@
     <div class="app-header__mobile-menu">
         <div>
             <button type="button" class="hamburger hamburger--elastic mobile-toggle-nav">
-                            <span class="hamburger-box">
-                                <span class="hamburger-inner"></span>
-                            </span>
+               <span class="hamburger-box">
+                   <span class="hamburger-inner"></span>
+               </span>
             </button>
         </div>
     </div>
@@ -67,7 +67,7 @@
                 <!-- Courier Widget -->
                 <li>
                     <a href="#" class="{{ Request::is('user/ShipForMe*') ? 'mm-active' : '' }}">
-                        <i class="metismenu-icon pe-7s-light"></i> ShipForMe - Orders
+                        <i class="metismenu-icon pe-7s-light"></i> Fix PHN Service - Orders
                         <i class="metismenu-state-icon pe-7s-angle-down caret-left"></i>
                     </a>
                     <ul>
