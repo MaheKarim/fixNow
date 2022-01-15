@@ -83,7 +83,7 @@
                     <div class="download-icon">
                         <img src="{{ asset('/') }}frontend/images/icons/service-1.png" class="img-fluid" alt="about-img">
                     </div>
-                    <h4>Ship PHN Service</h4>
+                    <h4>Fix PHN Service</h4>
                     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
                 </div>
             </div>
