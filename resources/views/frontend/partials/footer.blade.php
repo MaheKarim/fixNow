@@ -6,11 +6,11 @@
                     <div class="logo-footer">
                         {{--  <a href="{{ url('/') }}" title="logo"><img src="{{ asset('/') }}frontend/images/logo-white.png" alt="logo"></a>  --}}
                      <a href="{{ url('/') }}" title="logo">
-                    <h1 style="color: white">FixNow</h1>
+                    <h1 style="color: white">{{ config('app.name') }}</h1>
                     </a>
 
                     </div>
-                    <p>There anyone who loves or pursues not some great to have pleasure.</p>
+                    <p>{{ config('app.name') }} There anyone who loves or pursues not some great to have pleasure.</p>
                     <div class="row">
                         <div class="col-lg-2">
                             <div class="footer-icon">
@@ -88,7 +88,7 @@
             <div class="row">
                 <div class="col-md-6">
                     <div class="copyright-block">
-                        <p>&copy; {{ now()->year }} <a href="{{ url('/') }}" title="FixNow - PHN Servicing & Delivery Service">Fix Now</a> |  All Rights Reserved.  </p>
+                        <p>&copy; {{ now()->year }} <a href="{{ url('/') }}" title="FixNow - PHN Servicing & Delivery Service">{{ config('app.name') }}</a> |  All Rights Reserved.  </p>
                     </div>
                 </div>
                 <div class="col-md-6 text-right">

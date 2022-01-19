@@ -47,9 +47,8 @@
                         @auth()
                             @if(Auth::check() && Auth::user()->role->id == 1 ) {
                                 <a href="{{ route('app.dashboard') }}" class="btn btn-primary" title="get quotes">Dashboard</a>
-                             } @else {
+                              @else
                                 <a href="{{ route('user.dashboard.index') }}" class="btn btn-primary" title="get quotes">Dashboard</a>
-                                }
                                 @endif
                             @endauth
                     </div>
