@@ -14,7 +14,7 @@
                     <i class="pe-7s-cash icon-gradient bg-mean-fruit">
                     </i>
                 </div>
-                <div>{{ __('All ShipForMe Orders') }}</div>
+                <div>{{ __('All Orders') }}</div>
             </div>
         </div>
     </div>
